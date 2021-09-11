@@ -6,9 +6,9 @@
 
 This is a repo for me to document my journey taking the tensorflow development certification exam!!
 
-I am trying to document everything I do for the exam, including code to help with my learning! I am giving myself 6 months to try and complete the exam as I am starting pretty much from scratch with this exam (I don't have that much experience with tensorflow), so hopefully this will be a good learning resource for other people as well.
+I am trying to document everything I do for the exam, including code to help with my learning! I am giving myself 6 months to try and complete the exam as I am starting pretty much from scratch with this exam (I don't have that much experience with tensorflow), so hopefully this will be a good learning resource for other people.
 
-From what I understand I think you need at least a basic knowledge of python (at least oop and functional programming in python) and probably data manipulation in python to do the exam. If you don't have any of these maybe learn a bit about python, pandas and numpy before continuing as this repo won't cover this. 
+I think you need at least a basic knowledge of python (at least oop and functional programming in python) and probably data manipulation in python to do the exam. If you don't have any of these maybe learn a bit about python, pandas and numpy before continuing as this repo won't cover this. 
 
 
 ## Resources I am using.
