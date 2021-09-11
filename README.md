@@ -11,7 +11,7 @@ I am trying to document everything I do for the exam, including code to help wit
 ## A bit about this repo.
 Though I am new to tensorflow I am not new to python, pandas, numpy, sckit-learn and scipy. From what I understand I think you need at least a basic knowledge of python (at least oop and functional programming in python) and probably data manipulation in python to do the exam. If you don't have any of these maybe learn a bit about python, pandas and numpy before continuing as this repo won't cover this. 
 
-The exam also doesn't seem to test you on neural network basic maths (I am english and it is maths not math!!) but my personal opinion is understanding what the neural network is doing on a rudimental level is essesntial. This repo may cover some of the basics of neural networks maths but this is not the primary aim so maybe take a few courses on this stuff.
+The exam also doesn't seem to test you on neural network basic maths (I am english and it is maths not math!!) but my personal opinion is that understanding what the neural network is doing on a rudimental level is essential. This repo may cover some of the basics of neural networks maths but this is not the primary aim so maybe take a few courses on this stuff.
 
 ## Resources I am using.
 I am trying to use a variety of resources for this exam (some are free some I have paid for):
