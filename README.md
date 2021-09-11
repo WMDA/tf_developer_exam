@@ -16,11 +16,11 @@ I am trying to use a variety of resources for this exam (some are free, some I h
 
 - Canidates Handbook (https://www.tensorflow.org/extras/cert/TF_Certificate_Candidate_Handbook.pdf). This is the curriculum so is essential!! I will try to organise the repo around this and this is free.
 - TensorFlow Developer Professional Certificate on Coursera (https://www.coursera.org/professional-certificates/tensorflow-in-practice). I am using the free version of this at the moment but this course seems pretty essential to the exam.
-- Deeplearn.ai neural networks and deeplearning specialization (https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0). I am using this to help my understanding of the theory of the exam. I like the youtube version of this as I am subscribed to too many courses on coursera.
+- Deeplearn.ai neural networks and deeplearning specialization (https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0). I am using this to help my understanding of the theory of the exam. I like the youtube version of this course.
 - AI and Machine Learning for Coders: A Programmer's Guide to Artificial Intelligence by Laurence Moroney. I bought the kindle version of this as I have to do long commutes on trains (often without phone signal, stupid London underground!) so this allows me to do something while commuting.
 - TensorFlow Developer Certificate in 2021: Zero to Mastery from udemy (https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/). Udemy massively overcharge for their courses but do regular sales (at least once month) when stuff can be really cheap.
 
 
 ## Finally
 
-I hope this repo can help others but this repo is primairly aimed to help my learning. I am a linux user so I am doinng everything on linux. I can't answer technical questions on how to install tensorflow on mac/windows etc (look on stack overflow for this stuff!!).
+I hope this repo can help others but this repo is primairly aimed to help my learning. I am a linux user so I am doing everything on linux. I can't answer technical questions on how to install tensorflow etc on mac/windows etc (look on stack overflow for this stuff!!).
