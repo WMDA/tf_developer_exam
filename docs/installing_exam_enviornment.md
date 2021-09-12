@@ -32,7 +32,7 @@ if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
         PS1="(venv) ${PS1:-}"
 ~~~
 
-Tensorflow has specific module reuirements for the exam:
+Tensorflow has specific module requirements for the exam:
 - tensorflow==2.5.0
 - tensorflow-datasets==4.3.0
 - Pillow==8.2.0
@@ -40,7 +40,7 @@ Tensorflow has specific module reuirements for the exam:
 - numpy==1.19.5
 - scipy==1.7.0
 
-To make it easier with the installation I have put them all in the requirements.txt. Annoyingly in the installation an error occured as the latest version of absl-py doesn't work with the version of tensorflow-metadata which tensorflow 2.5 needs. Rolling absl-py back to 0.12 fixes it (this is included in the requirements.txt file). Also you need to install wheel before installing the requirements.txt file or else loads of error messages about 'bdist_wheel'.
+To make it easier with the installation I have put them all in the requirements.txt. Annoyingly in the installation an error occured as the latest version of absl-py doesn't work with the version of tensorflow-metadata which tensorflow 2.5 needs. Rolling absl-py back to 0.12 fixes it (this is included in the requirements.txt file). Also you need to install wheel before installing the requirements.txt file or else loads of error messages about 'bdist_wheel' appear.
 
 ~~~
 pip install wheel
