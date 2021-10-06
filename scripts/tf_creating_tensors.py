@@ -1,4 +1,5 @@
 import tensorflow as tf
+import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
 print('tf version',tf.__version__)
@@ -54,7 +55,24 @@ tensor_var= tensor_var[0,0,0].assign(10)
 print('\nUpdated tf variable:',tensor_var)
 
 #Create random tensors from uniform distribution
-ran= tf.random.Generator.from_seed(100) #THis sets the global seed and makes sure that random tensors are always the same each time the programme is run.
+ran= tf.random.Generator.from_seed(seed=1) #THis sets the global seed and makes sure that random tensors are always the same each time the programme is run.
 ran= ran.normal(shape=(3,3,3))
-
 print('random tensor:', ran)
+
+#Shuffle order of tensor. Shuffles data so order doesn't affect learning.
+#Global seed means the tensor will be shuffled the same way each
+shuffle= tf.random.shuffle(ran,seed=1)
+print('\nshuffled tensor:',ran)
+
+#Tensor of all ones/zeros with tf.
+
+onestf=tf.ones([3,3,3])
+zerostf=tf.zeros([3,3,3])
+
+print(onestf,zerostf)
+
+#Numpy to tensor. Tensors can be ran on GPU faster than numpy arrays
+
+np_array=np.arange(1,25)
+tensor_from_numpy=tf.constant(np_array,shape=(2,3,4)) #shape must equal the number of elements in original array.
+print('\nTensor from numpy:',tensor_from_numpy)
