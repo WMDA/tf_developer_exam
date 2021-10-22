@@ -1,5 +1,7 @@
 #User defined
 LSA.py
+.private
+.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
